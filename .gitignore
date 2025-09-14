@@ -1,0 +1,17 @@
+# node/pnpm
+node_modules/
+.pnpm-store/
+.pnpm-debug.log
+npm-debug.log*
+yarn.lock
+# build outputs
+dist/
+.next/
+out/
+coverage/
+# env
+.env
+.env.*
+# editor/OS
+.vscode/
+.DS_Store
