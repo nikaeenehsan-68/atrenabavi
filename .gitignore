@@ -15,3 +15,10 @@ coverage/
 # editor/OS
 .vscode/
 .DS_Store
+
+*.zip
+*.rar
+*.7z
+*.tar
+*.tgz
+*.gz
