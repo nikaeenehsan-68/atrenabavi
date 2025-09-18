@@ -1,6 +1,6 @@
 import {
   Entity, PrimaryGeneratedColumn, Column,
-  CreateDateColumn, UpdateDateColumn
+  CreateDateColumn, UpdateDateColumn, OneToMany,
 } from 'typeorm';
 
 @Entity({ name: 'users' })
@@ -91,4 +91,9 @@ export class User {
 
   @UpdateDateColumn({ type: 'datetime' })
   updated_at: Date;
+
+  
+
+  
 }
+
